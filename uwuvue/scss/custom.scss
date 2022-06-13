@@ -1,0 +1,20 @@
+$primary: #FFDEDE;
+$info: #85F0FF;
+$secondary: #CFCFCF;
+$dark: #211C1C;
+
+$body-bg: #000;
+$body-color: #e5e5e5;
+
+$progress-bg: $dark;
+$form-file-button-bg: $primary;
+$form-file-button-color: $body-bg;
+
+@font-face {
+  font-family: "Antartica";
+  src: url("Antarctica-VF.ttf") format("truetype");
+}
+
+$font-family-sans-serif: "Antartica";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
